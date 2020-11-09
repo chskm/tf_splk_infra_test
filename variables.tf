@@ -1,6 +1,10 @@
 variable "ami_id" {}
 variable "splk_hf_instance_type" {}
 variable "instance_count" {}
+variable "profile" {
+  type    = string
+  default = "default"
+}
 variable "tags" {
   type    = list
   default = ["HF1", "HF2"]
