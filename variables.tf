@@ -27,3 +27,5 @@ variable "az_mapping" {
 variable "hf_count" {}
 variable "idx_count" {}
 variable "key_name" {}
+variable "access_key" {}
+variable "secret_key" {}
